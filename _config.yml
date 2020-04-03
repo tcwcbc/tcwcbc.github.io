@@ -24,7 +24,7 @@ description              : "개발을하며 경험한 것들과 생각을 정리
 url                      : "https://tcwcbc.github.io" # the base hostname & protocol for your site e.g.
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tcwcbc/tcwcbc.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/catch.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/teaser.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/comfort.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -281,6 +281,9 @@ defaults:
       comments: true # 블로그 댓글 기능 true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "페이지 주요 목차"
 
   # _pages
   - scope:
