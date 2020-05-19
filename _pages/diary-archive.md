@@ -6,4 +6,4 @@ author_profile: true
 taxonomy: diary
 ---
 
-다이어리.
+일상.
